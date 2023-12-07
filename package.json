@@ -1,0 +1,29 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "Contributers : Shaheem and Abdul",
+  "main": "index.js",
+  "scripts": {
+    "run_dev": "setEnv=dev npx playwright test",
+    "run_test": "setEnv=test npx playwright test",
+    "run": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learningchester/PlaywrightFramework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learningchester/PlaywrightFramework/issues"
+  },
+  "homepage": "https://github.com/learningchester/PlaywrightFramework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
